@@ -9,7 +9,7 @@ describe('Login tests', () => {
         cy.visit('https://test-qa.inlaze.com/auth/sign-in');
     });
 
-    it("Login with valid credentiales", () => {
+    it("Login with valid credentials", () => {
         // Data
         const email = "we@gmail.com"
         const password = "We1234567#"
@@ -47,7 +47,7 @@ describe('Login tests', () => {
         loginPage.isErrorMessageVisible();
     })
 
-    it("Login with wrong password", () => {
+    it("Login with wrong password and registered email", () => {
         // Data
         const email = "we@gmail.com"
         const password = "Wa2234567#"
