@@ -32,8 +32,8 @@ Follow these steps to set up and execute the automated tests:
 1. **Clone the Repository**  
 Clone the repository and navigate to the project directory:  
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/SSR-Med/inlaze-test
+cd inlaze-test
 ```
 2. **Install Dependencies**
 ```bash
@@ -49,7 +49,7 @@ Below are the reported bugs during testing:
 - **Duplicate Email Registration**: The system allows the registration of emails that are already registered.
 - **Invalid Password Validation**: The password fields in both the Register and Login components accept passwords with fewer than 8 characters or without any special characters.
 
-For detailed bug reports, refer to the linked Jira board below.
+For detailed bug reports, refer to the linked board below.
 
 ## 📋 Test Cases
 The following test cases are automated in this project:
@@ -71,5 +71,5 @@ The following test cases are automated in this project:
 
 
 ## 🔗 Additional Resources
-- Jira Board: Test Cases and Bug Reports
+- Board: Test Cases and Bug Reports
 - Cypress Documentation: https://docs.cypress.io
