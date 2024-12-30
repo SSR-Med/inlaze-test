@@ -71,5 +71,6 @@ The following test cases are automated in this project:
 
 
 ## 🔗 Additional Resources
-- Jira Board: Test Cases and Bug Reports
+- Test Cases: https://western-ocelot-11c.notion.site/Test-Cases-16cf7248ee7580d4ad6ef12609c7871d
+- Bug reports: https://western-ocelot-11c.notion.site/Bugs-16cf7248ee7580318f9ce298e6a99e0e?pvs=4
 - Cypress Documentation: https://docs.cypress.io
